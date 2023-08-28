@@ -8,7 +8,7 @@ app.get('/dlr', (req, res) => {
 })
 
 app.post('/dlr', (req, res) => {
-  console.log('req query==>', req.body)
+  console.log('req body==>', req.body)
   res.send('Dlr reçu')
 })
 
